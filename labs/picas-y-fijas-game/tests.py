@@ -6,11 +6,10 @@ Created on Thu Mar  5 14:31:20 2020
 """
 
 import random
-import libreria_lab3 as lib
+import picas_y_fijas as lib
 
 r = random.randint(1000,9999)
 numero = int(input("Digite el numero contra el computador: "))
-picas = lib.picas(r, numero)
 pyf = lib.picas_y_fijas(r, numero)
 
 if numero != r:
